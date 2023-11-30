@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Trainee</title>
+</head>
+<body>
+    <header>
+        <img id="logoComp" src="imagens/comp.png" alt="comp">
+        <p id="tituloCabeçalho">Desafio trainee</p>
+    </header>
+
+    <div id="telas">
+        <div id="Pglogin">
+            <h1 id="tituloPglogin">Projeto trainee</h1>
+            <p id="textoPglogin">Caso seja sua primeira vez aqui, <br> 
+            clique <a href="telasSecundarias/cadastro.html">aqui</a> para fazer o seu cadastro</p>
+        </div>
+
+        <div id="login">
+            <h2 id="titulologin">Iniciar Sessão</h2>
+
+            <p><input type="email" name="email" id="email" placeholder=" E-mail"></p>
+            
+            <p><input type="password" id="senha" name="senha" placeholder=" Senha"></p>
+
+            <input type="button" value="Entrar" id="botão" onclick="validarEmail()">
+
+            <p id="esqueceuSenha"><a href="telasSecundarias/esqueceuSenha.html">Esqueceu a senha?</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

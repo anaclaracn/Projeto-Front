@@ -1,0 +1,93 @@
+/*estrutura base para todo código*/
+body{
+    background-color: rgba(128, 128, 128, 0.268);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+}
+
+/*estilo do quadradinho com o desenho da comp*/
+#logoComp {
+    width: 59px; 
+    height: 59px; 
+    background-color: rgb(44, 41, 41);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/*estilo do cabeçalho*/
+header{
+    background-color: rgb(44, 41, 41);
+    color: white;
+    padding: 4px;
+    width: 100%; 
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+/*estilo do título*/
+h1{
+    font-size: 40px;
+    margin-left: 120px;
+}
+
+/*estilo da tabela*/
+table {
+    margin: auto;  /*centraliza*/
+    border-spacing: 0;  /*remove a borda de cima*/
+    background-color: white;
+    box-shadow: 0 5px 12px rgba(32, 32, 32, 0.3);
+    text-align: left;
+}
+
+/*espaçamento dos campos e do cabeçalho*/
+th, td{
+    padding: 12px;
+}
+
+/*estilo do cabeçalho da tabela*/
+th{
+    color: white;
+    background-color: rgba(42, 40, 40, 0.793);
+    font-size: 20px;
+}
+
+/*espaço dos campos*/
+#p1, #p5{
+   width: 40px;
+}
+
+#p2{
+    width: 100px;
+}
+
+#p3{
+    width: 400px;
+}
+
+#p4{
+    width: 200px;
+}
+
+/*faz com que o botão fique em baixo da tabela*/
+#caixaMaior{
+    display: flex;
+    flex-direction: column;
+}
+
+/*estilo do botão*/
+#botao{
+    margin-top: 20px; /*espaço entre o cabeçalho e o botão*/
+    margin-left: 73%;
+    background-color: rgba(27, 52, 88, 1);
+    color: white;
+    border-radius:8px;
+    height: 35px;
+    width: 110px;
+    border: none;
+    &:hover{
+        filter:brightness(0.8);
+    }
+}

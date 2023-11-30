@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Trainee</title>
+</head>
+<body>
+    <header>
+        <img id="logoComp" src="imagens/comp.png" alt="comp">
+        <p id="tituloCabeçalho">Desafio trainee</p>
+    </header>
+
+    <div id="telaPrincipal">  <!--tudo dentro da tela preta-->
+
+        <h1 id="Contato">Contato</h1>
+
+        <div id="caixaMaior">
+            <div id="caixaMenor">
+                <div>
+                    <h2>Telefone</h2>
+                    <p id="informações">(xx) 0000-0000</p>
+                </div>
+            
+                <div>
+                    <h2>Email</h2>
+                    <p id="informações">contato@exemplo.com.br</p>
+                </div>
+            </div>
+
+            <div>
+                <h2>Localização</h2>
+                <p id="informações">
+                    <addres>Rua Design, 227 <br>
+                    Figma, Navegador Web <br>
+                    88783-180</addres>
+                </p>
+                <div id="map"></div>
+            </div>
+        </div>
+
+        <div id="dados">
+            <div id="dadosUsuario">
+                <p><input type="text"  name="nome" id="nome" placeholder="nome"></p>
+
+                <p><input type="tel" name="telefone" id="telefone" placeholder="telefone"></p>
+
+                <p><input type="email" name="email" id="email" placeholder=" e-mail" ></p>
+                
+                <p><input type="text"  name="mensagem" id="mensagem" placeholder="mensagem"></p>
+
+                <input type="button" value="enviar email    →" id="botão" onclick="enviar()">
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCttyrqdnQ6W5Z7LOFIBbzlfLq3l83jHjA&callback=inserirMapa"></script>
+</body>
+</html>

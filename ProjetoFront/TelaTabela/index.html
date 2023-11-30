@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Trainee</title>
+</head>
+<body>
+    <header>
+        <img id="logoComp" src="imagens/comp.png" alt="comp">
+        <p id="tituloCabeçalho">Desafio trainee</p>
+    </header>
+
+    <h1>TABELA</h1>
+
+    <!--crio a caixaMaior para o botão de add sempre fique em baixo da tabela-->
+    <div id="caixaMaior">
+        <div>
+            <table id="table">
+                <tr>
+                    <th id="p1">#</th>
+                    <th id="p2">Nome</th>
+                    <th id="p3">Descrição</th>
+                    <th id="p4">Período</th>
+                    <th id="p5"></th>
+                </tr>
+                <tr>
+                    <td id="p1">1</td>
+                    <td id="p2">Etapa 1</td>
+                    <td id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore illum hic deleniti ullam aliquid!</td>
+                    <td id="p4">01/01/2020 a 07/01/2020 </td>
+                    <td><img src="imagens/editar.png" alt="logoEditar" onclick="editarElemento(event)"> <img src="imagens/remover.png" alt="logoRemover" onclick="removerElemento(event)"></td>
+                </tr>
+                <tr>
+                    <td id="p1">2</td>
+                    <td id="p2">Etapa 2</td>
+                    <td id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore illum hic deleniti ullam aliquid!</td>
+                    <td id="p4">01/01/2020 a 07/01/2020 </td>
+                    <td><img src="imagens/editar.png" alt="logoEditar" onclick="editarElemento(event)"> <img src="imagens/remover.png" alt="logoRemover" onclick="removerElemento(event)"></td>
+                </tr>
+                <tr>
+                    <td id="p1">3</td>
+                    <td id="p2">Etapa 3</td>
+                    <td id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore illum hic deleniti ullam aliquid!</td>
+                    <td id="p4">01/01/2020 a 07/01/2020 </td>
+                    <td><img src="imagens/editar.png" alt="logoEditar" onclick="editarElemento(event)"> <img src="imagens/remover.png" alt="logoRemover" onclick="removerElemento(event)"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div><input id="botao" type="button" value="Adicionar linha" onclick="adicionarElemento()"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
