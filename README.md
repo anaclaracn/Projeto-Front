@@ -2,6 +2,9 @@
 ## Descrição geral
 O projeto foi realizado com a linguagem JavaScript(puro) e desenvolvido em HTML e CSS, e apresenta 4 telas, sendo elas: Tela de login, Carrossel de imagens, Tabela e Footer
 
+## Como executar o projeto
+Deverá clonar esse repositório, abri-lo no seu editor de código e executa-lo
+
 ### Tela de login
 A tela possui um formulário para login, de modo que o usuário preencha com seu email e senha. Possui dois link que encaminham para outras telas, uma para caso o usuário tenha esquecido a senha, e o outra para o cadastro.
 
